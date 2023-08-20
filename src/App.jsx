@@ -3,6 +3,9 @@ import Header from './components/Header/Header';
 import './App.css';
 import Sobremi from './pages/Sobremi/Sobremi';
 import Proyectos from './pages/Proyectos/Proyectos';
+import Objetivos from './pages/Objetivos/Objetivos';
+import Titulos from './pages/Titulos/Titulos';
+import Aficiones from './pages/Aficiones/Aficiones';
 
 function App() {
     return (
@@ -11,6 +14,9 @@ function App() {
             <Routes>
                 <Route path='/sobremi' element={<Sobremi />} />
                 <Route path='/proyectos' element={<Proyectos />} />
+                <Route path='/objetivos' element={<Objetivos />} />
+                <Route path='/titulos' element={<Titulos />} />
+                <Route path='/aficiones' element={<Aficiones />} />
             </Routes>
         </>
     );

@@ -26,9 +26,15 @@ const Header = () => {
                     <NavLink to={'/proyectos'}>
                         <li className='hover-list'>proyectos</li>
                     </NavLink>
-                    <li className='hover-list'>objetivos</li>
-                    <li className='hover-list'>títulos</li>
-                    <li className='hover-list'>aficiones</li>
+                    <NavLink to={'/objetivos'}>
+                        <li className='hover-list'>objetivos</li>
+                    </NavLink>
+                    <NavLink to={'/titulos'}>
+                        <li className='hover-list'>títulos</li>
+                    </NavLink>
+                    <NavLink to={'/aficiones'}>
+                        <li className='hover-list'>aficiones</li>
+                    </NavLink>
                     <li className='hover-list'>contacto</li>
                 </ul>
             </nav>
